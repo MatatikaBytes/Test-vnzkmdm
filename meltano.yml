@@ -17,6 +17,9 @@ plugins:
   - name: target-csv
     variant: hotgluexyz
     pip_url: git+https://github.com/hotgluexyz/target-csv.git
+  - name: target-bigquery
+    variant: z3z1ma
+    pip_url: git+https://github.com/z3z1ma/target-bigquery.git
   transforms:
   - name: dbt-googleads
     variant: matatika
