@@ -15,30 +15,6 @@ domains:
 - gmail.com
 - gmail.com
 - gmail.com
-- gmail.com
-- gmail.com
-- gmail.com
-- gmail.com
-- gmail.com
-- gmail.com
-- gmail.com
-- gmail.com
-- gmail.com
-- gmail.com
-- gmail.com
-- gmail.com
-- gusiloo.com
-- gusiloo.com
-- gusiloo.com
-- gusiloo.com
-- gusiloo.com
-- gusiloo.com
-- gusiloo.com
-- gusiloo.com
-- gusiloo.com
-- gusiloo.com
-- gusiloo.com
-- gusiloo.com
 - gusiloo.com
 - gusiloo.com
 - gusiloo.com
@@ -56,6 +32,7 @@ domains:
 app_properties:
   WELCOME_DATASET_ALIAS: welcome
 default_data_store: Warehouse
+state_data_store: Warehouse
 dataset_paths:
 - analyze/datasets
 - .meltano/analyze/datasets
@@ -67,4 +44,3 @@ plugin_paths:
 - plugins
 data_store_paths:
 - datastores
-state_datastore: Warehouse
